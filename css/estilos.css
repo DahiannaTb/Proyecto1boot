@@ -1,0 +1,107 @@
+.nombre{
+    font-family: "DM Serif Text", serif;
+}
+
+#carouselExampleInterval{
+    margin-top: -3em;
+}
+
+body{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+.inicio , .categorias , .contactos:hover{
+    color: rgb(206, 84, 125);
+}
+
+.ofertas{
+    background-color: rgb(206, 84, 125);
+}
+
+.favoritos{
+    background-color: rgb(206, 84, 125);
+}
+
+.menos , .mas , .carrito{
+    background-color: rgb(255, 152, 187);
+}
+
+.img1:hover{
+    transform: scale(0.9);
+    transition: transform.9s;
+    
+}
+
+.bg-car1{
+    background-image: url("../img/rostro.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-car2{
+    background-image: url("../img/ojos.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-car3{
+    background-image: url("../img/labios.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-car4{
+    background-image: url("../img/brochas.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer i{
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.labios{
+    background-color: rgb(255, 159, 183);
+    margin-top: 7em;
+}
+
+.btnmodal{
+    background-color: palevioletred;
+    font-weight: bold;
+}
+
+.infoad{
+    color: palevioletred;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width:1000px) {
+    #carouselExampleInterval{
+        margin-top: 3em;
+    }
+}
+
+@media (max-width:736px) {
+    .productos{
+        width: 55%;
+        
+    }
+
+    .card{
+        margin: 0 auto;
+    }
+}
